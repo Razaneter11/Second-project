@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:320px) and (max-width:499px){
+    /*header*/
+    header .containar{
+        width: 300%;
+    }
+    header .row{
+        display: flex;
+    }
+    header .row .list{
+    visibility: visible;
+    justify-content:flex-end ;
+ }
+ header .navbar{
+    visibility: hidden;
+ }
+ header .register{
+    align-self:center;
+    justify-content: center;
+}
+header .logo img{
+    width: 300%;
+}
+.hero .containar{
+    width: 200%;
+    margin-left: 150px;
+}
+.hero .containar .abstract img{
+    width: 30px;
+    height: 40px;
+   position: absolute;
+   right:115px;
+   }
+.hero .containar .abstract{
+    flex-wrap: wrap;
+}
+.hero .img-h{
+    flex-wrap: wrap;
+}
+.hero .discription{
+    flex-wrap: wrap;
+    font-size: large;
+}
+.hero .butoom{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: large;
+}
+.hero .containar p{
+    font-size:x-large;
+}
+.hero .containar a{
+    font-size:large;
+}
+/*icon*/
+.icon .row{
+    width: 300%;
+
+}
+.icon .containar{
+    display: flex;
+align-items: flex-start;
+justify-content:space-around;
+overflow-x: auto;
+width: calc((100% - 20px)/4);
+}
+/*piture*/
+  .pitcher img{
+      width: 400%;
+      margin-left: 250%;
+  }
+/*courses*/
+.courses .cards-discribtion {
+    padding: 20px;
+    background:var(--white-97, #F7F7F8);
+    display: flex;
+flex-wrap: wrap;
+
+}
+.courses .cards-discribtion .discription{
+    margin-left: 90%;
+}
+.courses .cards-discribtion .discription p{
+    font-size: x-large;
+}
+.courses .cards-discribtion .viewall{
+    margin-left: 100%;
+    font-size: x-large;
+}
+.courses .containar1{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    font-size: x-large;
+}
+.courses .containar2{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    font-size: x-large;
+}
+.courses .containar3{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    font-size: x-large;
+}
+/*img*/
+.img-card .cards-discribtion{
+    padding: 10px;
+    background:var(--white-97, #F7F7F8);
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-card .cards-discribtion .discription p{
+    font-size: x-large;
+}
+.img-card .cards-discribtion .viewall{
+    margin-left: 30%;
+    font-size: x-large;
+}
+.img-card .row1{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    width: 700%;
+    margin-left: 100px;
+}
+.img-card .row2{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    width: 700%;
+    margin-left: 100px;
+}
+.img-card .allcard{
+   width: 700%;
+}
+.img-card .row1 h3{
+    padding-top: 2px;
+    text-align:left;
+ 
+    font-size:x-large;
+}
+.img-card .row1 p{
+    font-size:x-large;
+}
+.img-card .row2 h3{
+    padding-top: 2px;
+    text-align:left;
+ 
+    font-size:x-large;
+}
+.img-card .row2 p{
+    font-size: larger;
+}
+/*Testomonial*/
+.Testimonials .cards-discribtion{
+    padding: 10px;
+    background:var(--white-97, #F7F7F8);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: x-large;
+}
+.Testimonials .cards-discribtion .viewall{
+    margin-left: 30%;
+    font-size: x-large;
+}
+.Testimonials .Testimonial{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    font-size: x-large;
+    margin-left: 100px;
+}
+/*pricing*/
+.paricing .cards-discribtion .discription p{
+    gap: 10px;
+    font-size:x-large;
+}
+.paricing .cards-discribtion .v{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-left: 100%;
+    font-size: x-large;
+}
+.paricing .cards-discribtion{
+    display: flex;
+     gap: 30px;
+    margin-left: 10px;
+    margin-bottom: 3%;
+    flex-wrap: wrap;
+    font-size: x-large;
+}
+.paricing .allrow{
+    flex-wrap: wrap;
+  margin-left: 100%;
+  font-size: xx-large;
+  margin-left: 300px;
+}
+.paricing .row1{
+    padding: 50px;
+}
+.paricing .row1 h2{
+    font-size: larger;
+}
+/*foter*/
+.foter .containar{
+    width: 200%;
+    margin-left: 150px;
+}
+.foter .row{
+    flex-wrap: wrap;
+    gap: 40px;
+    font-size: x-large;
+}
+.foter .row .left{
+    flex-wrap: nowrap;
+}
+.foter .right .name1 h2{
+    font-size: x-large;
+}
+.foter .right .name1 ul{
+    font-size: large;
+    flex-wrap: nowrap;
+}
+.foter .right{
+    flex-wrap: wrap;
+}
+.foter .para{
+    width: 200%;
+ justify-content: center;
+ margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: larger;
+}
+}
+@media screen and (min-width:500px) and (max-width:899px){
+    header .containar{
+        width: 200%;
+        margin-left: 50px;
+    }
+    header .row{
+        display: flex;
+    }
+    header .row .list{
+    visibility: visible;
+    justify-content:flex-end ;
+ }
+ header .navbar{
+    visibility: hidden;
+ }
+ header .register{
+    align-self:center;
+    justify-content: center;
+}
+header .logo img{
+    width: 150%;
+}
+.icon .row{
+    width: 300%;
+}
+.icon .containar{
+    display: flex;
+align-items: flex-start;
+justify-content:space-around;
+overflow-x: auto;
+width: calc((100% - 40px)/5);
+}
+
+.hero .containar{
+    width: 200%;
+    margin-left: 150px;
+}
+.hero .containar .abstract img{
+    width: 30px;
+    height: 40px;
+   position: absolute;
+   right:190px;
+   }
+.hero .containar .abstract{
+    flex-wrap: wrap;
+}
+.hero .img-h{
+    flex-wrap: wrap;
+}
+.hero .discription{
+    flex-wrap: wrap;
+}
+.hero .butoom{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.hero .containar p{
+    font-size:large;
+}
+.hero .containar a{
+    font-size:large;
+}
+
+
+/*piture*/
+.pitcher img{
+    width: 600%;
+    margin-left: 170%;
+}
+/*img*/
+.img-card .cards-discribtion h2{
+   font-size: xx-large;
+}
+.img-card .cards-discribtion p{
+    font-size: xx-large;
+ }
+ .img-card .cards-discribtion .viewall a{
+    font-size: xx-large;
+ }
+.img-card .allcard{
+    padding: 10%;
+ }
+ .img-card .row1 h2{
+    font-size:50px;
+ }
+ .img-card .row2 h2{
+    font-size:50px;
+ }
+.img-card .row1 h3{
+    padding-top: 2px;
+    text-align:left;
+    font-size:50px;
+}
+.img-card .row1 p{
+    font-size:50px;
+}
+.img-card .row2 h3{
+    padding-top: 2px;
+    text-align:left;
+    font-size:50px;
+}
+.img-card .row2 p{
+    font-size:50px;
+
+}
+/*courses*/
+
+.courses .cards-discribtion h2{
+    font-size: xx-large;
+ }
+ .courses .cards-discribtion p{
+     font-size: xx-large;
+  }
+  .courses .cards-discribtion .viewall a{
+     font-size: xx-large;
+  }
+/*Testomonial*/
+
+.Testimonials .cards-discribtion h2{
+    font-size: xx-large;
+ }
+ .Testimonials .cards-discribtion p{
+     font-size: xx-large;
+  }
+  .Testimonials .cards-discribtion .viewall a{
+     font-size: xx-large;
+  }
+  .Testimonial .tt p{
+   font-size: x-large;
+   }
+   .Testimonial .tt span{
+    font-size: xx-large;
+    }
+    .Testimonial .tt .link a{
+        font-size: x-large;
+        }
+/*pricing*/
+.paricing .cards-discribtion .discription  p{
+    font-size:xx-large;
+}
+.paricing .cards-discribtion h2{
+    font-size: xx-large;
+ }
+
+  
+
+.paricing .row1 h2{
+    font-size:large;
+}
+.paricing .row1 ul li{
+    font-size: larger;
+}
+.paricing .allrow{
+    width: 300%;
+}
+/*foter*/
+.foter .containar{
+    width: 200%;
+}
+.foter .row{
+    flex-wrap: wrap;
+}
+.foter .right{
+    flex-wrap: wrap;
+}
+
+.img-card .containar{
+    width: 200%; 
+}
+.courses .containar{
+    width: 200%;
+}
+.Testimonials .containar{
+    width: 200%;
+}
+.paricing .containar{
+    width: 100%;
+}
+.foter .para{
+    width: 200%;
+justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: larger;
+}
+
+}
+@media screen and (min-width:900px) and (max-width:1197) {
+    header .containar{
+        width: 70%;
+    }
+    header .row{
+        flex-wrap: wrap;
+    }
+    header .row2{
+        flex-wrap: wrap;
+    }
+    header .navbar{
+       flex-wrap: wrap;
+    }
+    header .register{
+        flex-wrap: wrap;
+    }
+    .img-card .containar{
+        width: 300px;
+    }
+    .courses .containar{
+        width: 300px;
+    }
+    .Testimonials .containar{
+        width: 300px;
+    }
+    .paricing .containar{
+        width: 300px;
+    }
+    /*foter*/
+    .foter .containar{
+        width: 300px;
+    }
+    .foter .row{
+        flex-wrap:nowrap;
+    }
+    .foter .right{
+        flex-wrap: wrap;
+    }
+
+ 
+}
+
+
+
+
+
+
+
